@@ -1,0 +1,116 @@
+*{
+     margin: 0;
+     padding:0;
+     box-sizing: border-box;
+}
+body{
+     background-color: hsl(212, 45%, 89%);
+     font-family: "Outfit", sans-serif;
+     height: 100vh;
+}
+/* .section-1{
+     background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: flex;
+    max-width:500px ;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 3%;
+    margin: 75px auto 0;
+}
+.section-1 img{
+     border-radius: 30px;
+     max-width: 650px;
+    height: 400px;
+    padding: 20px;
+    margin-top: -10px;
+}
+.flex-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.flex-container .img-qr img{
+    width: 90%;
+    height: 95%;
+    margin: 0 auto;
+    margin: 4%;
+}
+.attribution
+{
+      font-size: 11px; text-align: center; 
+      padding-top: 15px;
+}
+.attribution a { 
+     color: hsl(228, 45%, 44%); 
+}
+.content {
+     color: hsl(218, 44%, 22%);
+     font-size: 15;
+     font-family: 'Outfit', sans-serif;
+     padding-left: 10px;
+     padding-top: 11px;
+     text-align: center;
+     margin: 0 25px;
+}
+.content  h1{
+     font-weight: bold;
+     padding-bottom: 18px;
+}
+.content  p{
+     padding: 0 19px;
+  } */
+.margen{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.margen  .padre{
+     background: #ffffff;
+     margin: 66px auto;
+     padding: 20px;
+     max-width: 500px;
+     border-radius: 20px;
+     padding-bottom: 31px;
+  }
+  .padre img{
+    max-width: 100% ;
+    border-radius:12px;
+    margin-bottom: 30px;
+  }
+
+.margen  .padre h2{
+       font-size: 31px;
+       text-align: center;
+       margin: 0 30px 20px;
+       color: hsl(218, 44%, 22%);
+       letter-spacing: 0.7px;
+       font-weight: bold;
+       font-family: 'Outfit', sans-serif;
+  }
+.margen  .padre p{
+       font-size: 20px;
+       text-align: center;
+       margin: 0 30px;
+       color:  hsl(218, 44%, 22%);
+       opacity: 54%;
+       padding: 0 25px 18px 25px;
+       line-height: 24px;
+       font-family: 'Outfit', sans-serif;
+  }
+  @media screen and (max-width:800px){
+       .margen .padre h2{
+              text-align: center;
+              font-size: 22px;
+              margin: 0 20px 12px;
+       }
+       .margen  .padre p{
+               margin: 0 0px;
+               padding: 0 0px 18px 0;
+       }
+       .margen  .padre {
+          margin: 66px 15px;
+       }
+
+  }
